@@ -50,7 +50,7 @@ And finally traverse all the points and construct the convex hull. If the last t
 
 
 #### `std::vector<Point> load_xyz(const std::string &filename)`
-This function reads points from a file to a `std::vector` and returns it.
+This function reads points from `filename` to a `std::vector` and returns it.
 
 
 ## Point In Polygon
