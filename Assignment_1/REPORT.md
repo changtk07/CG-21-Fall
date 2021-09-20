@@ -30,7 +30,7 @@ By the definition `det(u, v) = ux * vy - vx * uy`
 This function returns the distance of two points `u` and `v`.
 
 #### `struct Compare`
-This structure provided the comparison that used to sort points in counter-clockwise order w.r.t `p0`. In case of tie, we sort the points by distance to `p0` in descending order. To compare the angle of two vectors `vec1 (p0, p1)` and `vec2 (p0, p2)`, we compute their determinant, if it's greater than 0, then `vec1` to `vec2` is a counter-clockwise turn; if it's less than 0, it's a clockwise turn; if it's 0, then `vec1` and `vec2` are collinear.
+This structure provided the comparison that used to sort points in counter-clockwise order w.r.t `p0`. In case of tie, we sort the points by distance to `p0` in descending order. To compare the angle of two vectors `vec1 (p0, p1)` and `vec2 (p0, p2)`, we compute their determinant, if it's greater than 0, then `vec1` to `vec2` is a counter-clockwise turn; if it's less than 0, it's a clockwise turn; if it's 0, then `p1` and `p2` are collinear.
 
 
 #### `bool inline salientAngle(Point &a, Point &b, Point &c)`
@@ -78,9 +78,9 @@ This function returns true if the point `query` is inside the polygon `poly`.
 
 First we find a point `outside` that is outside the polygon. The point I used is `(min_x - 10, min_y - 10)`, where `min_x` is the minimum of `x` coordinate, and `min_y` is the minimum of `y` coordinate.
 
-Then traverse each edge in `poly` and count the number of intersections with `[query, outside]`. If the number is odd then `query` is inside. I also handled special cases when an intersection is one of then vertex of polygon and when two line segments are overlapping.
+Then traverse each edge in `poly` and count the number of intersections with `[query, outside]`. If the number is odd then `query` is inside. I also handled special cases when an intersection is one of the vertices of polygon and when two line segments are overlapping.
 
-If the intersection point is a vertex of a polygon edge, then the intersection counts only if the second vertex of the edge lies below the ray. This is achieved by calculating their determinants.
+If the intersection point is a vertex of a polygon edge, then the intersection counts only if the second vertex of the edge lies "below" the ray. This is achieved by calculating their determinants.
 
 If one of the edge and the ray are overlapping, then don't count the intersection.
 
@@ -97,12 +97,12 @@ This function reads a polygon from `filename` to a `Polygon` and returns it.
 This function writes a list of points to `filename`.
 
 
-## Results
-Here's the result of convex hull:
+## Screenshots
+Here's the screenshots of convex hull. As shown all points lies within the convex hull constructed:
 
 ![](img/convex_hull.png?raw=true)
 
-And the result of points in side:
+And the screenshots of point_in_side. As shown, all points are inside the polygon:
 
 ![](img/inside.png?raw=true)
 
