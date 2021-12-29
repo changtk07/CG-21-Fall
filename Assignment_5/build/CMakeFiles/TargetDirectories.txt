@@ -1,3 +1,0 @@
-/Users/kevin/Documents/NYU/fall-21/Computer-Graphics/Assignment_5/build/CMakeFiles/rebuild_cache.dir
-/Users/kevin/Documents/NYU/fall-21/Computer-Graphics/Assignment_5/build/CMakeFiles/edit_cache.dir
-/Users/kevin/Documents/NYU/fall-21/Computer-Graphics/Assignment_5/build/CMakeFiles/assignment5.dir
