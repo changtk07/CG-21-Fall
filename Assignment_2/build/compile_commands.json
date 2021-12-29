@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/Users/kevin/Documents/NYU/fall-21/Computer-Graphics/cg/Assignment_2/build",
-  "command": "/usr/bin/clang++  -isystem /Users/kevin/Documents/NYU/fall-21/Computer-Graphics/cg/Assignment_2/../ext/eigen -isystem /Users/kevin/Documents/NYU/fall-21/Computer-Graphics/cg/Assignment_2/../ext/stb -isystem /Users/kevin/Documents/NYU/fall-21/Computer-Graphics/cg/Assignment_2/../ext/gif-h -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++11 -o CMakeFiles/assignment2.dir/src/main.cpp.o -c /Users/kevin/Documents/NYU/fall-21/Computer-Graphics/cg/Assignment_2/src/main.cpp",
-  "file": "/Users/kevin/Documents/NYU/fall-21/Computer-Graphics/cg/Assignment_2/src/main.cpp"
-}
-]
