@@ -1,2 +1,5 @@
 # CG-21-Fall
-See course website: https://github.com/danielepanozzo/cg
+Computer Graphic, NYU Fall 2021
+
+## Course Website
+https://github.com/danielepanozzo/cg
