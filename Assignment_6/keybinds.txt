@@ -1,0 +1,29 @@
+key     function
+esc     enable DEFAULT mode
+i       enable INSERT mode
+o       enable TRANSLATE mode
+p       enable DELETE mode
+c       enable COLOR mode
+h       under TRANSLATE mode, rotate a triangle counter-clockwise
+j       under TRANSLATE mode, rotate a triangle clockwise
+k       under TRANSLATE mode, scalue up a triangle
+l       under TRANSLATE mode, scalue down a triangle
+1       under COLOR mode, paint a vertex with color 1
+2       under COLOR mode, paint a vertex with color 2
+3       under COLOR mode, paint a vertex with color 3
+4       under COLOR mode, paint a vertex with color 4
+5       under COLOR mode, paint a vertex with color 5
+6       under COLOR mode, paint a vertex with color 6
+7       under COLOR mode, paint a vertex with color 7
+8       under COLOR mode, paint a vertex with color 8
+9       under COLOR mode, paint a vertex with color 9
+=       under DEFAULT mode, zoom in
+-       under DEFAULT mode, zoom out
+w       under DEFAULT mode, pan the view up
+a       under DEFAULT mode, pan the view left
+s       under DEFAULT mode, pan the view down
+d       under DEFAULT mode, pan the view right
+z       under TRANSLATE mode, add a keyframe
+x       under TRANSLATE mode, clear all keyframes
+v       under TRANSLATE mode, play linear interpolation animation
+b       under TRANSLATE mode, play Bézier curves animation
